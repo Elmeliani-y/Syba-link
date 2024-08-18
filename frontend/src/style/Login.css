@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+.form input{
+    /* display: inline-block; */
+    width: 308px;
+    height: 30px;
+    margin-top: 4px;
+    border: 2px solid #B968C7;
+    border-radius:3px ;
+    
+
+}
+.form div label{
+    color: rgba(0, 0, 0, 0.702);
+    font-weight: bolder;
+}
+.password-label{
+    margin-top: 35px;
+}
+.btn-login{
+    margin-top: 40px;
+    background-color: #b968c7e4;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-style: none;
+}
+.btn-login:hover{
+    background-color: #b968c7;
+
+}

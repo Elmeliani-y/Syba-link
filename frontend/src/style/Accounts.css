@@ -1,0 +1,52 @@
+.infouser{
+    display: flex;
+    justify-content: center;
+    
+}
+.infousersecond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    margin-top: 7%;
+}
+.stateuser{
+    background-color: rgb(226, 226, 226);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.stateuser li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.image-posts{
+    display: flex;
+}
+.button_follow{
+    padding: 10px 45px 10px 45px;
+    /* border: 1px black solid; */
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.btn_update{
+    padding: 10px 45px 10px 45px;
+    background-color: #B968C7;
+    font-weight: bold;
+    border-radius: 20px;
+
+}

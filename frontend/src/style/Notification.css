@@ -1,0 +1,25 @@
+.notification_container{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.child_notification{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.notification{
+    display: flex;
+}
+.notification_parent{
+    width: 75%;
+}
+.search_bar{
+    margin-left: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}

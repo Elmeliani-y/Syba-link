@@ -1,0 +1,70 @@
+.form_signpage {
+  padding: 0px 20px 10px 20px;
+  margin-right: 35px;
+  width: 350px;
+  height: 530px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.circle-background {
+  position: absolute;
+  top: 50%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 100%;
+  border-radius: 50% 0 0 50%;
+  background-color: #b968c7b3;
+  filter: blur(15px);
+}
+
+.btn-switch {
+  background-color: white;
+  border-style: none;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.btn-switch:hover {
+  text-decoration: underline;
+}
+
+.image {
+  filter: drop-shadow(0px 50px 30px #b968c7);
+}
+
+.title-img {
+  margin-left: 08%;
+}
+
+.title-img h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title-img h1 span {
+  color: #b968c7;
+}
+
+.image-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-form button {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: black 2px solid;
+}
+
+.btn-form button.active {
+  color: #b968c7;
+  border-bottom: #b968c7 2px solid;
+}
